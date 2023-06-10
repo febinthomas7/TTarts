@@ -1,0 +1,760 @@
+
+
+*{
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+   
+}
+#send{
+  margin-left: 36%;
+}
+#desert{
+  margin-top: 160px;
+}
+#dhoop{
+  margin-top: 120px;
+}
+.alert{
+  width: 100%;
+  background:rgb(173, 170, 170);
+  padding: 10px 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 900;
+  display: none;
+  
+}
+
+.active1{
+  border-bottom:2px solid black;
+
+}
+
+.navbar  a:active::after,
+.navbar  a:hover::after{
+   content:"" ;
+   width: 40%;
+   height: 2px;
+   background: #828282;
+   position:absolute;
+   bottom: 4px;
+   left: 15px;
+}
+.c-4 div:nth-child(1){
+  padding-bottom: 10px;
+}
+button{
+  border-radius: 10px;
+  border-color: transparent;
+  font-size: 19px;
+  padding: 18px 33px;
+  color: white;
+  background-color: rgb(173, 173, 173);
+  cursor: pointer;
+}
+
+.mobile-navbar-btn{
+  display: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.mobile-nav-icon[name="close-outline"]{
+
+  display:none;
+}
+
+
+#n-44{
+  height: 20px; width: 20px;
+}
+#close{
+  display: none;
+}
+#bar{
+  display: none;
+}
+#n-11{
+  font-size: 35px;
+}
+.name{
+  display: flex;
+}
+.name  input{
+  outline: none;
+  border: 1px solid rgb(199, 196, 196);
+  padding: 12px;
+  width:228px;
+  background-color: whitesmoke;
+}
+input[type="email" i]{
+  outline: none;
+  border: 1px solid rgb(199, 196, 196);
+  background-color: whitesmoke;
+  padding: 12px;
+  width:466px;
+}
+input[type="submit" i]{
+  outline: none;
+  border: 1px solid rgb(199, 196, 196);
+  padding: 35px 45px;
+  border-radius: 6px;
+  color: white;
+  background-color: rgb(158, 157, 157);
+  font-size: 16px;
+  font-weight: 600;
+  
+}
+input[type="submit" i]:hover{
+ 
+  background-color: rgb(184, 182, 182);
+  
+}
+textarea{
+  outline: none;
+  border: 1px solid rgb(199, 196, 196);
+  padding: 12px;
+  width:466px;
+  background-color: whitesmoke;
+}
+
+.name div{
+  padding: 10px 10px 10px 0;
+}
+.c-4 div{
+  padding-bottom: 30px;
+}
+ label{
+  padding: 10px 0;
+  line-height: 30px;
+}
+.c-2{
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content:center;
+}
+.c-3{
+  padding:200px;
+}
+
+.c-3 p:nth-child(1)
+{
+
+  font-size: 50px;
+  line-height: 110px;
+
+}
+
+.c-3 p:nth-child(3),
+.c-3 p:nth-child(2){
+  line-height: 40px;
+  color: rgb(135 135 135);
+}
+.c-4{
+  padding: 120px 10px 10px 10px;
+}
+.c-5 i{
+  padding: 0px 5px 5px 5px;
+  font-size: 20px;
+}
+.c-5 img{
+  padding-left: 5px;
+}
+.c-5{
+  padding-top: 26px;
+}
+.a-1{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    margin: 0 122px;
+}
+.a-2{
+    padding: 20px;
+}
+.a-3{
+    padding: 20px;
+}
+.a-3 p {
+  font-size: 17px;
+  width: 100%;
+  margin-right: 523px;
+}
+.a-2 img{
+    height: 100%;
+    width: 100%;
+}
+.c-1{
+    padding: 0 50px;
+}
+.container{
+    max-width:96%;
+    width: 100%;
+    margin: auto;
+    padding: 40px 0;
+    
+}
+.photo-gallery{
+    display: flex;
+    gap: 20px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.photo{
+    padding: 10px;
+}
+.photo img{
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
+    
+}
+ h1{
+
+    text-align: center;
+    font-size: 61px;
+    font-weight: normal;
+    color: rgb(119 119 119);
+}
+
+.newsletter{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding-top: 140px;
+   
+}
+.newsletter .n-1{
+    
+    text-align: center;
+}
+.newsletter .n-1 p{
+    
+   
+   line-height: 50px;
+}
+.newsletter .n-2{
+    
+    padding: 10px;
+    padding-top: 16px;
+ }
+ .newsletter .n-2 input,
+ .newsletter .n-2 button
+ {
+    margin: 0 5px;
+    padding: 20px;
+    border-color:white;
+   
+    
+ }
+ .newsletter .n-2 input{
+    outline: none;
+    border: 1px solid rgb(199, 196, 196);
+    width: 235px;
+ }
+ .newsletter .n-2 button{
+    border-radius: 10px;
+    border-color: transparent;
+    font-size: 19px;
+     padding: 18px 33px;
+    color: white;
+    background-color: rgb(173, 173, 173);
+    cursor: pointer;
+ }
+ .newsletter .n-2 button:hover{
+  
+    
+    background-color: rgb(180, 180, 180);
+ }
+ .newsletter .n-2 input[type=text] {
+    padding: 20px;
+    margin-top: 0px;
+    font-size: 16px;
+    color: #4a4a4a;
+}
+.newsletter .n-3,
+.newsletter .n-4{
+    padding-top: 16px;
+} 
+.newsletter .n-3{
+ 
+    color: #7f6868;
+   font-size: 15px;
+   
+}
+.newsletter .n-4{
+    padding-bottom: 150px;
+   
+}
+.newsletter .n-4 i{
+    padding: 5px;
+    font-size: 22px;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  overflow:auto;
+}
+section{
+  display: flex;
+  overflow-x: auto;
+  padding: 10px;
+  width: 200%;
+
+}
+
+header{
+ padding: 10px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+header img{
+width: 250px;
+height: 250px;
+padding: 20px;
+
+}
+header ul{
+  display: flex;
+  list-style: none;
+}
+header ul li{
+ padding: 50px;
+ font-size: 20px;
+}
+img {
+  width: 500px;
+  height: 500px;
+}
+.marquee {
+  position: relative;
+  width: 97%;
+  height: 500px;
+ padding: 0px;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  margin: 0 29px;
+}
+.marquee div {
+  display: block;
+  position: absolute;
+  width: 300%;
+  overflow: hidden;
+  
+  animation: marquee 7s linear  infinite;
+}
+.marquee img {
+ 
+  padding: 5px;
+  width:auto;
+  
+  
+}
+.marquee div:hover {
+  animation-play-state: paused;
+}
+.marquee span {
+  float: left;
+  width: 50%;
+}
+
+@keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
+
+.navbar {
+  overflow: hidden;
+ 
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color:black;
+  position: relative;
+
+
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+  
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color:black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin-left:40px; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  color: gray;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  
+  position: absolute;
+  background-color: #f9f9f97a;
+  min-width: 160px;
+  display: none;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  text-align:left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  color: black;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media (max-width:1300px){
+ 
+  .c-3 {
+    padding: 125px;
+}
+}
+@media (max-width:1024px){
+  .c-3 {
+    padding: 83px;
+}
+}
+@media (max-width:980px){
+  .c-3 {
+    padding: 83px;
+}
+}
+@media (max-width:768px){
+  
+input[type="email" i] {
+  
+  width: 347px;
+}
+textarea {
+  
+  width: 350px;
+  
+}
+.c-3 p:nth-child(1) {
+  font-size: 32px;
+ 
+}
+.name  input {
+ 
+  width: 167px;
+  
+}
+.newsletter .n-2 input {
+  
+  width: 152px;
+}
+}
+
+@media(max-width:425px){
+  header img{
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    
+    }
+    header {
+      padding: 30px 10px;
+      width: 100%;
+      
+      
+      
+      
+  }
+  .name  input {
+    
+    width: 160px;
+    
+}
+  #n-44{
+    height: 18px; width: 20px;
+  }
+  .navbar {
+    padding: 10px;
+    
+    width: 100px;
+    height: 100%;
+    
+}
+.marquee img {
+  padding: 5px;
+  width: 300px;
+  height: 200px;
+}
+.dropdown .dropbtn {
+
+  margin-left: 0px;
+}
+.newsletter .n-1 p {
+  line-height: 30px;
+  font-size: 15px;
+}
+#n-11{
+  font-size: 25px;
+}
+.newsletter .n-2 input {
+  outline: none;
+  border: 1px solid rgb(199, 196, 196);
+  width: 300px;
+}
+.marquee {
+  position: relative;
+  width: 92%;
+  height: 200px;
+  padding: 0px;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  margin: 0 19px;
+  
+  
+}
+.newsletter .n-2 input[type=text] {
+  padding: 17px;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #4a4a4a;
+}
+.newsletter .n-2 input[type=email] {
+  padding: 17px;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #4a4a4a;
+}
+.newsletter .n-4 {
+  padding-bottom: 70px;
+}
+.newsletter .n-3 {
+  
+  font-size: 16px;
+}
+.newsletter {
+  width: 100%;
+  margin-right: 0;
+  padding: 40px 10px 10px 10px;
+}
+.newsletter .n-2 button {
+  border-radius: 3px;
+  border-color: transparent;
+  font-size: 20px;
+  padding: 13px 21px;
+  color: white;
+  background-color: rgb(173, 173, 173);
+  cursor: pointer;
+  margin-top: 35px;
+}
+.newsletter .n-2 {
+  padding: 10px;
+  padding-top: 16px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.newsletter .n-4 i {
+  padding: 5px;
+  font-size: 21px;
+}
+.newsletter .n-3, .newsletter .n-4 {
+  padding-top: 22px;
+}
+#bar{
+  display: initial;
+  font-size: 24px;
+}
+#close{
+  display: initial;
+}
+#navbar{ 
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: flex-start;
+  position: fixed;
+  
+  bottom:-100vh;
+  height:83vh ;
+  width: 100%;
+  left: 0;
+  background-color: #ffffffbf;
+  box-shadow: 0 40px 60px rgba(0,0,0, 0.06);
+  padding: 0px 0 0 0px;
+   transition: 0.6s ease; 
+  z-index: 1;
+} 
+
+
+#navbar.active{
+  bottom: 0px;
+}
+
+
+
+.marquee div {
+  display: block;
+  position: absolute;
+  width: 300%;
+  overflow: hidden;
+  animation: marquee 5s linear  infinite;
+  height: 200px;
+}
+
+.dropdown .dropbtn {
+  font-size: 37px;
+ 
+}
+.navbar a {
+  
+  font-size: 37px;
+ 
+}
+.mobile-nav-icon{
+  width: 2rem;
+  height: 2rem;
+}
+.mobile-navbar-btn{
+  display: block;
+
+}
+.dropdown-content {
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  display: none;
+  box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 7%);
+  z-index: 2;
+padding-left: 10px;
+}
+.dropdown {
+
+  margin-top: 220px;
+}
+.dropdown-content a {
+  font-size: 20px;
+  
+}
+h1 {
+  text-align: center;
+  font-size: 30px;
+  
+}
+.column {
+  
+  gap: 0px;
+}
+.photo-gallery {
+  
+  gap: 0px;
+}
+#dhoop{
+  margin-top: 22PX;
+}
+#desert{
+  margin-top: 36px;
+}
+.a-1 {
+  flex-direction: column;
+  margin: 0px 0px;
+}
+.a-3 p {
+  font-size: 20px;
+  width: 100%;
+  margin-right: 0px;
+}
+.a-2 {
+  padding: 10px;
+  width: 100%;
+}
+.a-3 {
+  padding: 10px;
+  width: 100%;
+}
+.c-2 {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.c-3 {
+  padding: 0px;
+  margin-right: 142px;
+}
+#name  input {
+ 
+  width: 160px;
+  
+}
+input[type="email" i] {
+  
+  width: 330px;
+}
+textarea {
+  
+  width: 330px;
+  
+}
+.c-3 p:nth-child(1) {
+  font-size: 30px;
+  line-height: 70px;
+}
+.c-4 {
+  padding: 68px 10px 10px 10px;
+}
+input[type="submit" i] {
+
+  padding: 29px 48px;
+  
+  color: white;
+
+  font-size: 16px;
+  
+}
+#send{
+  margin-left: 30%;
+}
+.c-1 {
+  padding: 0 16px;
+}
+}
+
