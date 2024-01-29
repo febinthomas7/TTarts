@@ -25,6 +25,19 @@ function SendMail() {
     else {
 
 
+        
+        emailjs.send("service_0ti6tap", "template_5tey5xi", params).then(
+            res => {
+
+                document.getElementById("from_name").value = "";
+                document.getElementById("LastName").value = "";
+                document.getElementById("email_id").value = "";
+
+                
+
+            }
+        )
+
         document.querySelector(".success").style.display = "block";
         setTimeout(() => {
             document.querySelector(".success").style.display = "none";
@@ -36,18 +49,6 @@ function SendMail() {
             email_id: document.getElementById("email_id").value
 
         }
-        emailjs.send("service_0ti6tap", "template_5tey5xi", params).then(
-            res => {
-
-                document.getElementById("from_name").value = "";
-                document.getElementById("LastName").value = "";
-                document.getElementById("email_id").value = "";
-
-                alert("Success!");
-
-            }
-        )
-        console.log("done")
     }
 
 }

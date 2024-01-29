@@ -4,6 +4,7 @@
   box-sizing: border-box;
 
 }
+
 hr {
   border: none;
   border-top: 1px dotted #bfbfbf;
@@ -12,6 +13,22 @@ hr {
   height: 1px;
   width: 50%;
 }
+
+.success::after {
+  content: " ______";
+  display: inline-block;
+  vertical-align: 8px;
+  font-size: 15px;
+}
+
+.success::before {
+  content: "  ______  ";
+  display: inline-block;
+  vertical-align: 8px;
+  font-size: 15px;
+
+}
+
 
 /* width */
 ::-webkit-scrollbar {
@@ -59,7 +76,19 @@ hr {
   width: 100%;
   background: rgb(255 62 62);
   padding: 10px 10px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
+  text-align: center;
+  font-size: 18px;
+  font-weight: 800;
+  display: none;
+  color: #ffffff;
+}
+
+.FromAlert {
+  width: 100%;
+  background: rgb(255 62 62);
+  padding: 10px 10px;
+  /* border-radius: 5px; */
   text-align: center;
   font-size: 18px;
   font-weight: 800;
@@ -75,6 +104,7 @@ hr {
   font-size: 18px;
   font-weight: 800;
   display: none;
+
   color: #bfbfbf;
 }
 
@@ -86,12 +116,13 @@ hr {
 .navbar a:active::after,
 .navbar a:hover::after {
   content: "";
-  width: 40%;
+  width: 40px;
   height: 2px;
   background: #828282;
   position: absolute;
   bottom: 4px;
-  left: 15px;
+  left: 30%;
+
 }
 
 button {
@@ -195,13 +226,13 @@ label {
 
 .c-2 {
   display: flex;
-  padding: 10px;
-  align-items: center;
   justify-content: center;
+  padding-bottom: 90px;
+  padding-top: 30px;
 }
 
 .c-3 {
-  padding: 200px 100px;
+  padding: 0px 100px;
 }
 
 .c-3 p:nth-child(1) {
@@ -218,7 +249,7 @@ label {
 }
 
 .c-4 {
-  padding: 120px 10px 10px 10px;
+  padding: 7px 10px 10px 10px;
 }
 
 .c-5 i {
@@ -258,9 +289,7 @@ label {
   width: 100%;
 }
 
-.c-1 {
-  padding: 0 50px;
-}
+
 
 .container {
   max-width: 96%;
@@ -931,7 +960,5 @@ img {
 
   }
 
-  .c-1 {
-    padding: 0 16px;
-  }
+ 
 }

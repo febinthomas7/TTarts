@@ -29,11 +29,11 @@ function submitForm(e) {
   saveMessages(fname,lname, email, message);
 
   //   enable alert
-  document.querySelector(".alert").style.display = "block";
+  document.querySelector(".FormAlert").style.display = "block";
 
   //   remove the alert
   setTimeout(() => {
-    document.querySelector(".alert").style.display = "none";
+    document.querySelector(".FromAlert").style.display = "none";
   }, 3000);
 
   //   reset the form
