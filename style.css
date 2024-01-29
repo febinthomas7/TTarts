@@ -6,8 +6,14 @@
     box-sizing: border-box;
    
 }
-#send{
-  margin-left: 36%;
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+}
+#contactForm >input{
+  font-size: 15px;
 }
 #desert{
   margin-top: 160px;
@@ -42,17 +48,16 @@
    bottom: 4px;
    left: 15px;
 }
-.c-4 div:nth-child(1){
-  padding-bottom: 10px;
-}
+
 button{
   border-radius: 10px;
   border-color: transparent;
   font-size: 19px;
   padding: 18px 33px;
   color: white;
-  background-color: rgb(173, 173, 173);
+  background-color: rgb(121 121 121);
   cursor: pointer;
+  border: 1px solid transparent;
 }
 
 .mobile-navbar-btn{
@@ -67,7 +72,7 @@ button{
 
 
 #n-44{
-  height: 20px; width: 20px;
+  height: 23px; width: 23px;
 }
 #close{
   display: none;
@@ -86,14 +91,16 @@ button{
   border: 1px solid rgb(199, 196, 196);
   padding: 12px;
   width:228px;
+  font-size: 15px;
   background-color: whitesmoke;
 }
-input[type="email" i]{
+input[type="email" i] {
   outline: none;
   border: 1px solid rgb(199, 196, 196);
-  background-color: whitesmoke;
   padding: 12px;
-  width:466px;
+  width: 466px;
+  font-size: 15px;
+  background-color: whitesmoke;
 }
 input[type="submit" i]{
   outline: none;
@@ -118,13 +125,12 @@ textarea{
   width:466px;
   background-color: whitesmoke;
 }
+input[type="textarea" i]{
+  font-size: 15px;
+}
 
-.name div{
-  padding: 10px 10px 10px 0;
-}
-.c-4 div{
-  padding-bottom: 30px;
-}
+
+
  label{
   padding: 10px 0;
   line-height: 30px;
@@ -136,7 +142,7 @@ textarea{
   justify-content:center;
 }
 .c-3{
-  padding:200px;
+  padding: 200px 100px;
 }
 
 .c-3 p:nth-child(1)
@@ -156,14 +162,14 @@ textarea{
   padding: 120px 10px 10px 10px;
 }
 .c-5 i{
-  padding: 0px 5px 5px 5px;
   font-size: 20px;
 }
-.c-5 img{
-  padding-left: 5px;
-}
-.c-5{
+
+.c-5 {
   padding-top: 26px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 .a-1{
     display: flex;
@@ -252,29 +258,38 @@ textarea{
    
     
  }
- .newsletter .n-2 input{
-    outline: none;
-    border: 1px solid rgb(199, 196, 196);
-    width: 235px;
- }
+ .newsletter .n-2 input {
+  outline: none;
+  border: 1px solid rgb(199, 196, 196);
+  width: 235px;
+  font-size: 15px;
+  background-color: whitesmoke;
+}
  .newsletter .n-2 button{
     border-radius: 10px;
     border-color: transparent;
     font-size: 19px;
      padding: 18px 33px;
     color: white;
-    background-color: rgb(173, 173, 173);
+    background-color: rgb(121 121 121);
     cursor: pointer;
+    border: 1px solid transparent;
+
  }
- .newsletter .n-2 button:hover{
-  
-    
-    background-color: rgb(180, 180, 180);
+ .newsletter .n-2 button:hover,
+ button:hover{
+    background-color: rgb(0, 0, 0);
+ }
+
+ .newsletter .n-2 button:active,
+ button:active{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 1px solid black;
  }
  .newsletter .n-2 input[type=text] {
     padding: 20px;
     margin-top: 0px;
-    font-size: 16px;
     color: #4a4a4a;
 }
 .newsletter .n-3,
@@ -287,12 +302,13 @@ textarea{
    font-size: 15px;
    
 }
-.newsletter .n-4{
-    padding-bottom: 150px;
-   
+.newsletter .n-4 {
+  padding-bottom: 150px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 .newsletter .n-4 i{
-    padding: 5px;
     font-size: 22px;
 }
 
@@ -317,9 +333,10 @@ header{
   
 }
 header img{
-width: 250px;
-height: 250px;
+width: 200px;
+height: 200px;
 padding: 20px;
+object-fit: contain;
 
 }
 header ul{
@@ -490,13 +507,13 @@ textarea {
 
 @media(max-width:425px){
   header img{
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     padding: 0px;
     
     }
     header {
-      padding: 30px 10px;
+      padding: 30px 30px;
       width: 100%;
       
       
@@ -509,7 +526,7 @@ textarea {
     
 }
   #n-44{
-    height: 18px; width: 20px;
+    height:23px; width: 23px;
   }
   .navbar {
     padding: 10px;
@@ -592,7 +609,6 @@ textarea {
   flex-direction: column;
 }
 .newsletter .n-4 i {
-  padding: 5px;
   font-size: 21px;
 }
 .newsletter .n-3, .newsletter .n-4 {
@@ -750,9 +766,7 @@ input[type="submit" i] {
   font-size: 16px;
   
 }
-#send{
-  margin-left: 30%;
-}
+
 .c-1 {
   padding: 0 16px;
 }
