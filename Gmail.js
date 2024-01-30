@@ -4,8 +4,8 @@
 
 function SendMail() {
     const from_name = document.getElementById("from_name").value;
-    const LastName = document.getElementById("LastName");
-    const email_id = document.getElementById("email_id");
+    const LastName = document.getElementById("LastName").value;
+    const email_id = document.getElementById("email_id").value;
 
 
 

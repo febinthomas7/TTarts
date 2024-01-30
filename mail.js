@@ -30,10 +30,11 @@ function submitForm(e) {
 
   //   enable alert
   document.querySelector(".FormAlert").style.display = "block";
+  
 
   //   remove the alert
   setTimeout(() => {
-    document.querySelector(".FromAlert").style.display = "none";
+    document.querySelector(".FormAlert").style.display = "none";
   }, 3000);
 
   //   reset the form
