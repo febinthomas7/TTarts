@@ -1,3 +1,78 @@
+
+.containerr
+{
+  padding-top: 13vh;
+  width: 1400px;
+  margin: auto;
+  columns: 3;
+  column-gap: 20px;
+  padding-bottom: 12vh;
+  
+}
+.containerr .boxx
+{
+  width: 100%;
+  margin-bottom: 10px;
+  break-inside: avoid;
+  border-radius: 15px;
+}
+.containerr .boxx img
+{
+  width:100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+img:hover {
+  
+  opacity: .95;
+  box-shadow: 0 0 10px #fff;
+}
+
+
+
+@media (max-width: 1427px)
+{
+  .containerr
+  {
+    columns: 3;
+    width: calc(100% - 40px);
+  }
+}
+@media (max-width: 1200px)
+{
+  .containerr
+  {
+    columns: 3;
+  }
+}
+
+@media (max-width: 1000px)
+{
+  .containerr
+  {
+    columns: 3;
+  }
+}
+
+@media (max-width: 786px)
+{
+  .containerr
+  {
+    columns: 3;
+  }
+}
+
+
+@media (max-width: 480px)
+{
+  .containerr
+  {
+    columns: 2;
+  }
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -90,8 +165,8 @@ hr {
 
 .alert {
   width: 100%;
-  background-image: linear-gradient(to right,white,white, whitesmoke,rgb(249, 154, 154), red ,red, rgb(249, 154, 154),whitesmoke,white, white);
-    padding: 10px 10px;
+  background-image: linear-gradient(to right,white,white, white,rgb(255 231 231), red ,red, rgb(255 231 231),white,white, white);
+  padding: 10px 10px;
   /* border-radius: 5px; */
   text-align: center;
   font-size: 18px;
@@ -707,8 +782,10 @@ img {
 @media(max-width:425px) {
 
   .alert {
-   
-    background-image: linear-gradient(to right,white,#ffeeee, #ffc5c5,rgb(249, 154, 154), rgb(255, 62, 62) ,red, rgb(249, 154, 154),#ffc5c5,#ffeeee, white);
+    color: red;padding-top: 27px;
+   background: none;
+padding: 17px 0 0 0 ;   
+    /* background-image: linear-gradient(to right,white,#ffeeee, #ffc5c5,rgb(249, 154, 154), rgb(255, 62, 62) ,red, rgb(249, 154, 154),#ffc5c5,#ffeeee, white); */
    
    
 }
@@ -791,7 +868,7 @@ img {
   }
 
   .newsletter .n-1 p {
-    line-height: 30px;
+    line-height: 25px;
     font-size: 15px;
   }
 
@@ -848,8 +925,8 @@ img {
   }
 
   .newsletter .n-2 {
-    padding: 10px;
-    padding-top: 16px;
+    
+    padding: 0;
     align-items: center;
     display: flex;
     flex-direction: column;
