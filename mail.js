@@ -42,13 +42,27 @@ function submitForm(e) {
 }
 
 const saveMessages = (fname,lname, email, message) => {
-  var newContactForm = contactFormDB.push();
+  let newContactForm = contactFormDB.push();
+  let today =new Date()
+
+  let month= today.getMonth()+1;
+  let year =today.getFullYear()
+  let day =today.getDate()
+  let hour =today.getHours()
+  let min =today.getMinutes()
+  let sec =today.getSeconds()
+
+  let Time=`${hour}:${min}:${sec}`
+
+  let date=`${day}|${month}|${year}`
 
   newContactForm.set({
     fname: fname,
     lname:lname,
     email: email,
     message: message,
+    date:date,
+    Time:Time
   });
 };
 

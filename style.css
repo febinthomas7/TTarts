@@ -1,13 +1,11 @@
 
-.containerr
-{
-  padding-top: 13vh;
+.containerr {
+  padding-top: 50px;
   width: 1400px;
   margin: auto;
   columns: 3;
-  column-gap: 20px;
-  padding-bottom: 12vh;
-  
+  column-gap: 12px;
+  padding-bottom: 50px;
 }
 .containerr .boxx
 {
@@ -20,7 +18,7 @@
 {
   width:100%;
   height: auto;
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 
@@ -67,10 +65,12 @@ img:hover {
 
 @media (max-width: 480px)
 {
-  .containerr
-  {
+  .containerr {
+    padding-top: 30px;
     columns: 2;
-  }
+    column-gap: 12px;
+    padding-bottom: 30px;
+}
 }
 
 * {
@@ -418,6 +418,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 40px;
 
 }
 
