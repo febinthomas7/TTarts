@@ -94,12 +94,12 @@ hr {
 
 .FormAlert {
   width: 100%;
-  padding: 10px 10px;
   color: #bfbfbf;
-
   text-align: center;
   font-size: 18px;
+  position: absolute;
   font-weight: 800;
+  top: -48px;
   display: none;
 }
 .FormAlert::after,.FormAlert::before  {
@@ -148,6 +148,7 @@ hr {
   display: flex;
   flex-direction: column;
   gap: 25px;
+  position: relative;
   align-items: center;
 }
 
@@ -734,20 +735,21 @@ img {
 @media (max-width:1300px) {
 
   .c-3 {
-    padding: 125px;
-  }
+    padding: 0px 100px;  }
 }
 
 @media (max-width:1024px) {
   .c-3 {
-    padding: 83px;
+    padding: 0px 100px;  }
+    .c-3 p:nth-child(1) {
+      font-size: 37px;
+      line-height: 110px;
   }
 }
 
 @media (max-width:980px) {
   .c-3 {
-    padding: 83px;
-  }
+    padding: 0px 18px;  }
 }
 
 @media (max-width:768px) {
