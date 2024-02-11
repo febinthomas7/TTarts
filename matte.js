@@ -11,18 +11,18 @@ const matte = (res) => {
   let box = "";
   res.map((e) => {
     return (box += `<div class="boxx" ${e.id}>
-    <div class="boxShade"> ${e.title}</div>
-            <a
-              href=${e.url}
-              data-lightbox="models"
-              data-title=${e.title}
-            >
+    <a
+    href=${e.url}
+    data-lightbox="models"
+    data-title=${e.title}
+  >
+  <div class="boxShade"> ${e.title}</div>
+  </a>          
               <img
                 loading="lazy"
                 src=${e.url}
                 alt=${e.title}
               />
-            </a>
           </div>`);
   });
 
