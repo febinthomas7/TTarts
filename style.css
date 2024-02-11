@@ -24,6 +24,11 @@
   margin-bottom: 10px;
   break-inside: avoid;
   border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+}
+.containerr .boxx > a {
+  display: flex;
 }
 .containerr .boxx img {
   width: 100%;
@@ -33,6 +38,37 @@
 img:hover {
   opacity: 0.95;
   box-shadow: 0 0 10px #fff;
+}
+
+.open,
+.close {
+  font-size: 25px;
+  z-index: 2;
+  position: relative;
+}
+.close {
+  display: none;
+  font-size: 30px;
+}
+.boxShade {
+  position: absolute;
+  height: 100%;
+  z-index: 4;
+  width: 100%;
+  top: 0;
+  transition: ease-in-out 0.2s;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: transparent;
+  font-size: 27px;
+}
+.boxShade:hover {
+  background-color: #eeeeeeb3;
+  color: #000;
+
+  /* display: none; */
 }
 @media (max-width: 1427px) {
   .containerr {
@@ -391,6 +427,7 @@ button:active {
 }
 .newsletter .n-4 i {
   font-size: 22px;
+  color: black;
 }
 section {
   display: flex;
