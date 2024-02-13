@@ -25,7 +25,6 @@
   break-inside: avoid;
   border-radius: 15px;
   position: relative;
-  overflow: hidden;
 }
 .containerr .boxx > a {
   display: flex;
@@ -43,7 +42,7 @@ img:hover {
 .open,
 .close {
   font-size: 25px;
-  z-index: 2;
+  z-index: 3;
   position: relative;
 }
 .close {
@@ -53,7 +52,7 @@ img:hover {
 .boxShade {
   position: absolute;
   height: 100%;
-  z-index: 4;
+  z-index: 1;
   width: 100%;
   top: 0;
   transition: ease-in-out 0.2s;
@@ -392,7 +391,7 @@ h1 {
 }
 .newsletter .n-2 button:hover,
 button:hover {
-  background-color: #000;
+  background-color: #242424;
 }
 .newsletter .n-2 button:active,
 button:active {
@@ -728,7 +727,7 @@ img {
     box-shadow: 0 40px 60px rgba(0, 0, 0, 0.06);
     padding: 0;
     transition: 0.6s;
-    z-index: 1;
+    z-index: 3;
   }
   #navbar.active {
     bottom: 0;
