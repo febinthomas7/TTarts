@@ -723,11 +723,12 @@ img {
     bottom: -100vh;
     width: 100%;
     left: 0;
-    background-color: #ffffffbf;
+    background-color: #ffffffa1;
     box-shadow: 0 40px 60px rgba(0, 0, 0, 0.06);
     padding: 0;
-    transition: 0.6s;
+    transition: 0.3s ease-in-out;
     z-index: 3;
+    backdrop-filter: blur(11px);
   }
   #navbar.active {
     bottom: 0;
