@@ -1,7 +1,13 @@
+let loader = document.querySelector(".loader");
+
 const func = async () => {
   let data = await fetch("illustration.json");
   let res = await data.json();
-  illustration(res);
+  loader.style.display = "flex";
+  setTimeout(() => {
+    illustration(res);
+    loader.style.display = "none";
+  }, 2000);
 };
 func();
 

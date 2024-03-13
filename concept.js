@@ -1,7 +1,12 @@
+let loader = document.querySelector(".loader");
 const func = async () => {
   let data = await fetch("concept.json");
   let res = await data.json();
-  concept(res);
+  loader.style.display = "flex";
+  setTimeout(() => {
+    concept(res);
+    loader.style.display = "none";
+  }, 2000);
 };
 func();
 
