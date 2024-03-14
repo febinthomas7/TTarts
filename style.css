@@ -11,6 +11,9 @@
 .navbar {
   overflow: hidden;
 }
+.ScrollImg {
+  display: none;
+}
 .containerr {
   padding-top: 50px;
   width: 1400px;
