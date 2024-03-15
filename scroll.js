@@ -110,5 +110,4 @@ setTimeout(() => {
   ScrollImg.style.display = "inherit";
   skeleton.style.display = "none";
   horizontalLoop(boxes, { paused: false, repeat: -1 });
-  //
-}, 5000);
+}, 2000);

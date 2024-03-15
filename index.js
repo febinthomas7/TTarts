@@ -19,3 +19,9 @@ const Scroll = (res) => {
 
   container.innerHTML = box;
 };
+
+const PreLoader = document.getElementById("PreLoader");
+
+window.addEventListener("load", () => {
+  PreLoader.style.display = "none";
+});

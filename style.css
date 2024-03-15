@@ -1,3 +1,12 @@
+#PreLoader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #e4f0f0 url("preloader.gif") no-repeat center center;
+  background-size: 26%;
+  z-index: 999;
+}
+
 #contactForm,
 .column {
   flex-direction: column;
@@ -556,6 +565,9 @@ img {
   }
 }
 @media (max-width: 1024px) {
+  #PreLoader {
+    background-size: 30%;
+  }
   .c-3 {
     padding: 0 100px;
   }
@@ -570,6 +582,9 @@ img {
   }
 }
 @media (max-width: 768px) {
+  #PreLoader {
+    background-size: 40%;
+  }
   input[type="email" i] {
     width: 347px;
   }
@@ -587,6 +602,10 @@ img {
   }
 }
 @media (max-width: 425px) {
+  #PreLoader {
+    background-size: 50%;
+  }
+
   #bar,
   #close {
     display: initial;
