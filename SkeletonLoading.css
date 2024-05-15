@@ -1,11 +1,11 @@
 .contain {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 6px;
   width: 100%;
 }
 .movie--isloading {
-  height: 465px;
+  height: 478px;
   border-radius: 4px;
   overflow: hidden;
   margin-bottom: 15px;

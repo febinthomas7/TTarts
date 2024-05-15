@@ -428,7 +428,7 @@ button:active {
   padding-bottom: 55px;
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 20px;
 }
 .dropdown .dropbtn,
 .navbar a {

@@ -1,21 +1,3 @@
-const Scroll = () => {
-  let res = [1, 2, 3, 4, 5, 6, 7];
-  let container = document.querySelector(".contain");
-
-  let box = "";
-  res.map((e) => {
-    return (box += `<div  class="col-sm-6 col-md-3">
-    <div class="movie--isloading">
-      <div class="loading-image"></div>
-       </div>
-    </div>`);
-  });
-
-  container.innerHTML = box;
-};
-
-Scroll();
-
 let ScrollImg = document.querySelector(".ScrollImg");
 let skeleton = document.querySelector(".skeleton");
 ScrollImg.style.display = "none";
